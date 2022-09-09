@@ -152,4 +152,22 @@
     ```
     system.in은 키보드 입력을 위해 사용한다고만 알아두자
     
+    ```
+    int number = scanner.nextInt();
+    ```
+    nextInt 메서드는 scanner 객체(object)를 통해 입력받은 값을 INT(정수)형으로 받아 읽어들인 후 number라는 정수형 변수에 저장한다.
+
+    Scanner 에서 값을 읽을 때 사용하는 다른 메서드로는
+    ```
+    nextBoolean()	    Reads a boolean value from the user
+    nextByte()	        Reads a byte value from the user
+    nextDouble()	    Reads a double value from the user
+    nextFloat()	        Reads a float value from the user
+    nextInt()	        Reads a int value from the user
+    nextLine()	        Reads a String value from the user
+    nextLong()	        Reads a long value from the user
+    nextShort()	        Reads a short value from the user
+    ```
+    등이 있다.
+
 

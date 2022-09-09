@@ -13,6 +13,9 @@
 
   + [2, 3단 구현 - 계산 및 출력](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#2-3%EB%8B%A8-%EA%B5%AC%ED%98%84---%EA%B3%84%EC%82%B0-%EB%B0%8F-%EC%B6%9C%EB%A0%A5)
 
+  + [4, 5단 구현 - 값 입력 및 변수](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#4-5%EB%8B%A8-%EA%B5%AC%ED%98%84---%EA%B0%92-%EC%9E%85%EB%A0%A5-%EB%B0%8F-%EB%B3%80%EC%88%98)
+
+
 
 ## Git
 
