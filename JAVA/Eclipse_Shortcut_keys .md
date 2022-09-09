@@ -23,3 +23,7 @@ ex) sout 입력 후 ctrl + space => system.out.println();
 선택된 라인을 그대로 복사한다.
 
 누른 키보드 방향에 따라 복사된다.
+
+### ctrl + /
+
+선택된 라인을 주석 처리 한다.
