@@ -170,4 +170,103 @@
     ```
     등이 있다.
 
+# 6, 7단 구현 - 반복문 
+* 코드
+    ```
+    public class Gugudan {
+        public static void main(String[] args) {
+            System.out.println("구구단을 출력할 단은?");
+            Scanner scanner = new Scanner(System.in);
+            int number = scanner.nextInt();
+            System.out.println("number : " + number);		
+            
+            for(int i = 1; i < 10; i++ ) {
+                System.out.println(number + " * " + i +" = " + number * i);
+            }
+            
+        }
+    }
+    ```
+
+* 결과
+    ```
+    구구단을 출력할 단은?
+    6
+    number : 6
+    6 * 1 = 6
+    6 * 2 = 12
+    6 * 3 = 18
+    6 * 4 = 24
+    6 * 5 = 30
+    6 * 6 = 36
+    6 * 7 = 42
+    6 * 8 = 48
+    6 * 9 = 54
+    ```
+
+* 정리
+    
+    지금까지 2 ~ 5단까지 구현하기 위해 단순, 반복적인 작업이 많았다.
+    단순, 반복적인 작업의 수가 적다면 상관이 없지만 굉장히 100개,1000개,10000개 정도로 늘어난다면 일일이 하나하나 입력할 순 없을 것이다.
+    
+    이러한 단순 반복작업을 간단히 하기 위해 사용하는 것이 반복문이다.
+
+    반복문에는 for문과 while문이 있지만 for문만 설명하겠다.
+
+    ```
+    for(int i = 1; i < 10; i++ ) {
+                    System.out.println(number + " * " + i +" = " + number * i);
+                }
+    ```
+    for문은 세가지 값을 정해주고 정해진 내용중 조건을 만족하면 몸통에 있는 코드가 실행되게 된다.
+
+    ```
+    for(초기식;조건식;변화식){
+        실행될 코드
+    }
+    ```
+    초기식 : 코드 블록을 실행하기 전에 한 번 실행된다. 루프가 실행되기 전에 변수를 설정한다.
+
+    조건식 : 코드 블록을 실행하기 위한 조건을 정의한다. 조건이 참이면 루프가 다시 시작되고 거짓이면 루프가 종료된다.
+
+    변화식 : 매 루프마다 실행된다.
+
+    위의 식으로 설명해보면
+    초기식은 i = 1 이고 조건식은 i < 10 인데 이 때 결과는 참이므로 코드블럭 안에 있는 내용이 실행된다.
+    변화식이 i++ 이므로 실행 후 i = i + 1이 된다.
+    (++i 일 경우 코드블럭이 실행 전에 i = i + 1이 먼저 시행된다.)
+
+    쭉 진행하다가 i = 10 이 된 순간 조건식의 결과가 거짓이 되므로 반복문은 중단되게 된다.
+
+    for를 이용한 반복문은 다른 방법도 있는데
+    ```
+	int[] list = {1,2,3,4,5};
+
+	for(int val : list) {
+		System.out.println(val);
+	}
+    ```
+    for문이 실행될 때 마다 val(초기식)에 list배열의 내용을 순서대로 저장하여 반복문을 실행하는 방식이다
+
+    이를 구구단에 적용해보면
+    ```
+    import java.util.Scanner;
+
+    public class Gugudan {
+        public static void main(String[] args) {
+            System.out.println("구구단을 출력할 단은?");
+            Scanner scanner = new Scanner(System.in);
+            int number = scanner.nextInt();
+            System.out.println("number : " + number);	
+            
+            int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            for(int i : list) {
+                System.out.println(number + " * " + i +" = " + number * i);
+            }
+            
+        }
+    }
+
+    ```
+    로 적용해볼수 있다.
 
