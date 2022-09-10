@@ -270,3 +270,116 @@
     ```
     로 적용해볼수 있다.
 
+# 8, 9단 구현 - 값 입력 및 조건문
+* 코드
+    ```
+    import java.util.Scanner;
+
+    public class Gugudan {
+        public static void main(String[] args) {
+            System.out.println("구구단을 출력할 단은?");
+            Scanner scanner = new Scanner(System.in);
+            int number = scanner.nextInt();
+            System.out.println("number : " + number);	
+            
+            if (number < 2) {
+                System.out.println("숫자가 2이하입니다.");
+            } else if (number > 9) {
+                System.out.println("숫자가 9보다 큽니다");
+            } else {
+                int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+                for(int i : list) {
+                    System.out.println(number + " * " + i +" = " + number * i);
+                }
+            }
+        }
+    }
+
+    ```
+* 결과
+    * 결과 1
+        ```
+        구구단을 출력할 단은?
+        1
+        number : 1
+        숫자가 2이하입니다.
+
+        ```
+    * 결과 2
+        ```
+        구구단을 출력할 단은?
+        11
+        number : 11
+        숫자가 9보다 큽니다
+
+        ```
+    * 결과 3
+        ```
+        구구단을 출력할 단은?
+        8
+        number : 8
+        8 * 1 = 8
+        8 * 2 = 16
+        8 * 3 = 24
+        8 * 4 = 32
+        8 * 5 = 40
+        8 * 6 = 48
+        8 * 7 = 56
+        8 * 8 = 64
+        8 * 9 = 72
+
+        ```
+* 정리
+    구구단을 출력할 때 2 ~ 9단 사이만 출력되도록 하기 위해 조건을 걸어주는 코드이다.
+
+    이렇게 조건을 걸어야 할 때에는 if else문을 사용한다.
+    ```
+    if (number < 2) {
+        System.out.println("숫자가 2이하입니다.");
+    } else if (number > 9) {
+        System.out.println("숫자가 9보다 큽니다");
+    } else {
+        int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            for(int i : list) {
+                System.out.println(number + " * " + i +" = " + number * i);
+                }
+            }
+    ```
+
+    순서도를 이용하여 설명해보자면
+
+    <img src=img/gugudan1.png>
+
+    첫 if문인 
+    ```
+    if (number < 2) {
+        System.out.println("숫자가 2이하입니다.");
+    }
+    ```
+    에서 입력한 값이 2이하라면 "숫자가 2이하입니다."라는 출력값이 나오고
+
+    아니라면 바로 뒤에 붙은 else if문으로 넘어간다
+    ```
+    if (number < 2) {
+        System.out.println("숫자가 2이하입니다.");
+    } else if (number > 9) {
+        System.out.println("숫자가 9보다 큽니다");
+    }
+    ```
+
+    이 때에 입력한 값이 9보다 크다면 "숫자가 9보다 큽니다"라는 출력 값이 나오고
+
+    아니라면 바로 뒤에 붙은 else 넘어가 구구단이 출력되게 된다.
+    ```
+     if (number < 2) {
+        System.out.println("숫자가 2이하입니다.");
+    } else if (number > 9) {
+        System.out.println("숫자가 9보다 큽니다");
+    } else {
+        int[] list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for(int i : list) {
+            System.out.println(number + " * " + i +" = " + number * i);
+        }
+    }
+    ```
+
