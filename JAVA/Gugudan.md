@@ -458,5 +458,94 @@
     2단이 입력되었을 때 에는 이러한 형식으로 저장되게 된다.     
 
     입력된 배열을 바탕으로 각 단을 중첩 반복문을 이용하여 출력한다.
+
+# 메소드 활용해 구구단 다시 구현
+* 코드
+    ```
+    public class Gugudan {
+        public static int[] caculate(int times) {
+            int[] result = new int[9];
+            
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 배열에 저장
+                result[i] = times * (i + 1); 
+            }
+            
+            return result;
+        }
+        
+        public static void print(int[] result) {
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 화면에 출력
+                System.out.println(result[i]);
+            }
+            
+        }
+        
+        
+        public static void main(String[] args){
+            for(int j =2; j < 10; j++) {
+                int[] result = caculate(j);
+                print(result);
+            }
+            
+        }
+        
+    }
+    ```
+* 결과
+    ```
+    2
+    4
+    6
+    8
+    10
+    12
+    14
+    16
+    18
+    ...
+    9
+    18
+    27
+    36
+    45
+    54
+    63
+    72
+    81
+    ```
+* 정리
     
+    메소드 선언은 선언부(리턴 타입, 메소드 이름, 매개 변수 선언)와 실행 블록으로 구성된다.
+    ```
+    public static int[] caculate(int times) {
+            int[] result = new int[9];
+            
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 배열에 저장
+                result[i] = times * (i + 1); 
+            }
+            
+            return result;
+        }
+    ```
+    위 메소드는 계산 결과를 배열에 저장해주는 메소드로서 리턴 타입이 int형 배열 객체이기에 int형 리턴 타입인 메소드로 선언되었다. 매개 변수로는 계산하고 저장여야 할 단의 숫자가 주어졌다.
+
+    ```
+    public static void print(int[] result) {
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 화면에 출력
+                System.out.println(result[i]);
+            }
+            
+        }
+    ```
+    위 메소드는 그저 배열의 값들을 출력해주는 메소드로서 따로 리턴 타입이 필요가 없다. 따라서 void로 선언 되었다. 매개변수로는 출력해야할 배열 객체가 주어졌더,
+    
+    메소드 이름은 자바 식별자 규칙에 맞게 작성하면 된다.
+        
+        * 숫자로 시작하면 안되고, $와 _를 제외한 특수문자를 사용하지 말아야 한다.
+        * 관례적으로 메소드 이름은 소문자로 작성한다
+        * 서로 다른 단어가 혼합된 이름이라면 뒤이어오는 단어의 첫 글자는 대문자로 작성한다. ex)startEngine, goShoot...
 
