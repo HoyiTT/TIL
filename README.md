@@ -18,7 +18,7 @@
   + [6, 7단 구현 - 반복문](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#6-7%EB%8B%A8-%EA%B5%AC%ED%98%84---%EB%B0%98%EB%B3%B5%EB%AC%B8)
 
   + [8, 9단 구현 - 값 입력 및 조건문](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#8-9%EB%8B%A8-%EA%B5%AC%ED%98%84---%EA%B0%92-%EC%9E%85%EB%A0%A5-%EB%B0%8F-%EC%A1%B0%EA%B1%B4%EB%AC%B8)
-  
+  + [배열로 구구단 다시 구현](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#%EB%B0%B0%EC%97%B4%EB%A1%9C-%EA%B5%AC%EA%B5%AC%EB%8B%A8-%EB%8B%A4%EC%8B%9C-%EA%B5%AC%ED%98%84)
 
 
 
