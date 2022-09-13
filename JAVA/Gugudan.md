@@ -553,3 +553,75 @@
         * 관례적으로 메소드 이름은 소문자로 작성한다.
         * 서로 다른 단어가 혼합된 이름이라면 뒤이어오는 단어의 첫 글자는 대문자로 작성한다. ex)startEngine, goShoot...
 
+
+# 클래스를 활용해 다시 구현
+* 코드
+
+    Gugudan.java
+    ```
+    public class Gugudan {
+        public static int[] caculate(int times) {
+            int[] result = new int[9];
+            
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 배열에 저장
+                result[i] = times * (i + 1); 
+            }
+            
+            return result;
+        }
+        
+        public static void print(int[] result) {
+            for(int i = 0; i < result.length; i++) {
+                //계산 결과를 화면에 출력
+                System.out.println(result[i]);
+            }
+            
+        }	
+    }
+    
+    ```
+    GugudanMain.java
+    ```
+    public class GugudanMain {
+        public static void main(String[] args){
+            for(int j = 2; j < 10; j++) {
+                int[] result = Gugudan.caculate(j);
+                Gugudan.print(result);
+            }	
+        }
+    }
+    ```
+* 결과
+    ```
+    2
+    4
+    6
+    8
+    10
+    12
+    14
+    16
+    18
+    ...
+    9
+    18
+    27
+    36
+    45
+    54
+    63
+    72
+    81
+    ```
+* 정리
+    
+    클래스를 생성하여 코드를 분리할 수 있다.
+    다른 클래스에 있는 메소드를 사용하기 위해서는 
+    ```
+    클래스이름.메소드이름
+    ```
+    방식으로 사용할 수 있다.
+
+    
+
