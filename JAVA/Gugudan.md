@@ -2,6 +2,12 @@
 
 구구단 만들기 및 자바의 기초를 다지는 공부입니다.
 
+만들어 가면서 배우는 JAVA 플레이그라운드
+
+https://www.inflearn.com/course/java-codesquad/dashboard
+
+강의를 보며 정리하는 내용입니다.
+
 
 # 2, 3단 구현 - 계산 및 출력
 
@@ -623,5 +629,102 @@
     ```
     방식으로 사용할 수 있다.
 
-    
 
+# 추가 미션 및 마무리 하기
+최종 요구사항 1
+사용자가 입력한 값에 따라 크기가 다른 구구단을 계산해 출력한다.
+예를 들어 사용자가 8을 입력하면 팔팔단, 19를 입력하면 십구십구단(2 * 1에서 19 * 19)을 계산해 출력한다.
+
+이 요구사항은 앞의 실습을 소화했으면 구현할 수 있기 때문에 생략한다.
+
+최종 요구사항 2
+
+사용자가 입력한 값에 따라 크기가 다른 구구단을 계산해 출력한다.
+예를 들어 사용자가 "8,7"과 같은 문자열을 입력하면 팔칠단을 구현한다. 팔칠단은 2 * 1 ... 2 * 7, 3 * 1 ... 3 * 7, ... , 8 * 1 ... 8 * 7 까지 구현하는 것을 의미한다.
+* 코드
+
+    ```
+
+    import java.util.Scanner;
+
+    public class GugudanMain {
+        public static void main(String[] args){
+            
+            Scanner scanner = new Scanner(System.in);
+            String inputValue = scanner.nextLine();
+            
+            String[] splitedValue = inputValue.split(",");
+            if (splitedValue.length == 1) {
+                int first = Integer.parseInt(splitedValue[0]);
+                for(int i = 2; i <= first; i++) {
+                    for(int k = 1;k < 10; k++) {
+                        System.out.println(i + " * " + k + " = " + i * k);
+                    }
+                }
+
+                
+            }else if(splitedValue.length == 2) {
+                int first = Integer.parseInt(splitedValue[0]);
+                int second = Integer.parseInt(splitedValue[1]);
+                for(int i = 2; i <= first; i++) {
+                    for(int k = 1;k <= second; k++) {
+                        System.out.println(i + " * " + k + " = " + i * k);
+                    }
+                }
+                
+            }else {
+                System.out.println("error!");
+            }
+            
+        }
+    }
+
+    ```
+
+* 결과
+    입력 값이 1개 일때
+    ```
+    3(입력값)
+    2 * 1 = 2
+    2 * 2 = 4
+    2 * 3 = 6
+    2 * 4 = 8
+    2 * 5 = 10
+    2 * 6 = 12
+    2 * 7 = 14
+    2 * 8 = 16
+    2 * 9 = 18
+    3 * 1 = 3
+    3 * 2 = 6
+    3 * 3 = 9
+    3 * 4 = 12
+    3 * 5 = 15
+    3 * 6 = 18
+    3 * 7 = 21
+    3 * 8 = 24
+    3 * 9 = 27
+    ```
+
+
+    입력값이 2개일때
+    ```
+    3,7(입력값)
+    2 * 1 = 2
+    2 * 2 = 4
+    2 * 3 = 6
+    2 * 4 = 8
+    2 * 5 = 10
+    2 * 6 = 12
+    2 * 7 = 14
+    3 * 1 = 3
+    3 * 2 = 6
+    3 * 3 = 9
+    3 * 4 = 12
+    3 * 5 = 15
+    3 * 6 = 18
+    3 * 7 = 21
+
+    ```
+* 정리
+입력 값이 한개일떄와 여러개일때를 구분하기 위해 if문을 통하여서 구분해주고
+요구사항에 맞는 코드를 구구단을 작성하였다.
