@@ -8,6 +8,8 @@
 * Eclipse
   + [Eclipse 단축키](https://github.com/HoyiTT/TIL/blob/master/JAVA/Eclipse_Shortcut_keys%20.md)
 
+  + [Git Eclipse 연동](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4_%EA%B9%83_%EC%97%B0%EB%8F%99.md)
+
 
 * [구구단 만들기](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md)
 
