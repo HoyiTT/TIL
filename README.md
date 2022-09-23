@@ -29,7 +29,7 @@
   * [기본 세팅](https://github.com/HoyiTT/TIL/blob/master/Spring/%EA%B8%B0%EB%B3%B8%EC%84%B8%ED%8C%85.md#%EC%8A%A4%ED%94%84%EB%A7%81spring-%EA%B8%B0%EB%B3%B8-%EC%84%B8%ED%8C%85)
   * [WelcomPage](https://github.com/HoyiTT/TIL/blob/master/Spring/welcomepage.md#welcome-page)
     + [정적페이지](https://github.com/HoyiTT/TIL/blob/master/Spring/welcomepage.md#1-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80)
-    + [동적페이지](https://github.com/HoyiTT/TIL/blob/master/Spring/welcomepage.md#2-%EB%8F%99%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80e)
+    + [동적페이지](https://github.com/HoyiTT/TIL/blob/master/Spring/welcomepage.md#2-%EB%8F%99%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80)
 
 
 
