@@ -80,7 +80,7 @@ resources/templates/hello.html
 결과
 (localhost:8080/hello)
 
-<img src="img/hellohtml2.jpg">
+<img src=img/hellohtml2.jpg>
 
 
 정리
@@ -89,7 +89,7 @@ HelloController를 통해 입력한
 
 data:hello!!! 가 그대로 출력된 내용이다.
 
-<img src="img/원리1.jpg">
+<img src=img/원리1.jpg>
 
 브라우저(클라이언트)에서 서버에 localhost:8080/hello를 요청하면 
 
