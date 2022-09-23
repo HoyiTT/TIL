@@ -60,7 +60,7 @@ public class HelloController {
 그 후 
 resources에 templates에 hello.html을 만들고 
 
-<img src=img/hellohtml1.jpg>
+<img src=img/hellohtml1.JPG>
 
 resources/templates/hello.html 를 생성해 작성해준다.
 
@@ -80,7 +80,7 @@ resources/templates/hello.html
 결과
 (localhost:8080/hello)
 
-<img src=img/hellohtml2.jpg>
+<img src=img/hellohtml2.JPG>
 
 
 정리
@@ -89,7 +89,7 @@ HelloController를 통해 입력한
 
 data:hello!!! 가 그대로 출력된 내용이다.
 
-<img src=img/원리1.jpg>
+<img src=img/원리1.JPG>
 
 브라우저(클라이언트)에서 서버에 localhost:8080/hello를 요청하면 
 
