@@ -27,7 +27,7 @@ Hello World!!
 
 # 2. 동적 페이지
 
-## thyymeleaf 템플릿 엔진 사용
+## thymeleaf 템플릿 엔진 사용
 
 java/hello.hellospring 안에 controller라는 패키지를 생성해준다.
 
@@ -95,7 +95,7 @@ data:hello!!! 가 그대로 출력된 내용이다.
 
 스프링 부트에 내장된 톰캣서버에서 컨테이너에서 "hello"컨트롤러가 있는지 확인 후
 
-모뎅(data:"hello!!")과 hello를 리턴한다.
+모델(data:"hello!!")과 hello를 리턴한다.
 
 그 후 뷰 리졸버에서 thymeleaf템플릿 엔진 처리 후 hello.html로 변환하여
 
