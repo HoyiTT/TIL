@@ -54,6 +54,7 @@ data:hello!!! 가 그대로 출력된 내용이다.
 <img src=img/원리1.JPG>
 
 컨트롤러에서 리턴 값으로 반환된 문자로 뷰 리졸버가 화면을 찾아서 처리한다.
+
 resources:templates/{ViewName}.html
 
 
@@ -76,7 +77,7 @@ Hello World!!
 실행
 (localhost:8080/hello-static.html (포트는 다를 수 있음!))
 
-<img src=img/원리2.JPG>
+<img src=img/원리2.jpg>
 
 컨트롤러에 hello-static관련 컨트롤러가 없으므로 바로 정적인 페이지가 출력되게 된다.
 
@@ -112,7 +113,7 @@ templates/hello-template.html
 실행
 (localhost:8080/hello-mvc?name=spring (포트는 다를 수 있음!))
 
-<img src=img/원리3.JPG>
+<img src=img/원리3.jpg>
 
 컨트롤러에 hello-mvc관련 컨트롤러가 있기에 뷰 리졸버를 통하여 html로 변환되어 출력된다.
 
@@ -145,7 +146,7 @@ public class HelloController {
     }
 }
 ```
-@Response를 사용하고, 객체를 반환하면 객체가 JSON으로 변환되어 출력된다.
+@ResponseBody를 사용하고, 객체를 반환하면 객체가 JSON으로 변환되어 출력된다.
 (객체가 아닐경우는 일반적인 String으로 출력됨)
 
-<img src=img/원리4.JPG>
+<img src=img/원리4.jpg>
