@@ -25,6 +25,7 @@
   + [클래스를 활용해 구구단 다시 구현](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%8B%A4%EC%8B%9C-%EA%B5%AC%ED%98%84)
   + [추가 미션 및 마무리 하기](https://github.com/HoyiTT/TIL/blob/master/JAVA/Gugudan.md#%EC%B6%94%EA%B0%80-%EB%AF%B8%EC%85%98-%EB%B0%8F-%EB%A7%88%EB%AC%B4%EB%A6%AC-%ED%95%98%EA%B8%B0)
 * [객체](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EA%B0%9D%EC%B2%B4.md#%EA%B0%9D%EC%B2%B4)
+* [클래스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4.md#%ED%81%B4%EB%9E%98%EC%8A%A4)
 * [Map](https://github.com/HoyiTT/TIL/blob/master/JAVA/Map.md#map)
 
 ## Spring
