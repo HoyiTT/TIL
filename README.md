@@ -27,6 +27,7 @@
 * [객체](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EA%B0%9D%EC%B2%B4.md#%EA%B0%9D%EC%B2%B4)
 * [클래스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%ED%81%B4%EB%9E%98%EC%8A%A4.md#%ED%81%B4%EB%9E%98%EC%8A%A4)
 * [인스턴스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4.md#%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4)
+* [인터페이스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md#%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
 * [Map](https://github.com/HoyiTT/TIL/blob/master/JAVA/Map.md#map)
 
 ## Spring
