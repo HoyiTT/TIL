@@ -29,6 +29,7 @@
 * [인스턴스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4.md#%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4)
 * [인터페이스](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md#%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
 * [Map](https://github.com/HoyiTT/TIL/blob/master/JAVA/Map.md#map)
+* [접근 제한자](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%A0%91%EA%B7%BC%EC%A0%9C%ED%95%9C%EC%9E%90.md#%EC%A0%91%EA%B7%BC-%EC%A0%9C%ED%95%9C%EC%9E%90)
 
 ## Spring
   * [Spring](https://github.com/HoyiTT/TIL/blob/master/Spring/Spring.md#spring)
