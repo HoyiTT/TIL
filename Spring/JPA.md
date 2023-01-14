@@ -27,20 +27,22 @@ ex) 테이블의 구성 예시
 
 sql 쿼리로 작성할 시
 ```
-insert into question (subject, content) values ('안녕하세요', '가입 인사드립니다 ^^');
-insert into question (subject, content) values ('질문 있습니다', 'ORM이 궁금합니다');
+insert into question (subject, content) values ('안녕하세요', '신입이에요');
+insert into question (subject, content) values ('반갑습니다', '잘 부탁 드립니다');
 ```
 
 JPA를 사용하면
 ```
 Question q1 = new Question();
 q1.setSubject("안녕하세요");
-q1.setContent("가입 인사드립니다 ^^");
+q1.setContent("신입이에요");
 this.questionRepository.save(q1);
 
 Question q2 = new Question();
-q2.setSubject("질문 있습니다");
-q2.setContent("ORM이 궁금합니다");
+q2.setSubject("반갑습니다");
+q2.setContent("잘 부탁 드립니다");
 this.questionRepository.save(q2);
 ```
+로 작성할 수 있다.
 
+가독성이 좋고 DB 벤더에 상관없이 사용할 수 있다!
