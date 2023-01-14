@@ -34,6 +34,7 @@
   * [기본 세팅](https://github.com/HoyiTT/TIL/blob/master/Spring/%EA%B8%B0%EB%B3%B8%EC%84%B8%ED%8C%85.md#%EC%8A%A4%ED%94%84%EB%A7%81spring-%EA%B8%B0%EB%B3%B8-%EC%84%B8%ED%8C%85)
   * [WelcomePage](https://github.com/HoyiTT/TIL/blob/master/Spring/welcomepage.md#welcome-page)
   * [Spring_웹개발기초](https://github.com/HoyiTT/TIL/blob/master/Spring/Spring_%EC%9B%B9%EA%B0%9C%EB%B0%9C%EA%B8%B0%EC%B4%88.md#thymeleaf-%ED%85%9C%ED%94%8C%EB%A6%BF-%EC%97%94%EC%A7%84)
+  * [JPA](https://github.com/HoyiTT/TIL/blob/master/Spring/JPA.md#jpa)
 ## IDE
   + [Eclipse 단축키](https://github.com/HoyiTT/TIL/blob/master/JAVA/Eclipse_Shortcut_keys%20.md)
 
