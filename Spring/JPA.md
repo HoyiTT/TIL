@@ -46,3 +46,52 @@ this.questionRepository.save(q2);
 로 작성할 수 있다.
 
 가독성이 좋고 DB 벤더에 상관없이 사용할 수 있다!
+
+
+## 엔티티
+
+다음과 같은 엔티티가 있다고 가정해보자
+
+|속성명|설명|
+|------|---|
+|id|질문의 고유 번호|
+|subject|질문의 제목|
+|content|질문의 내용|
+|createDate|질문의 생성일|
+
+이러한 엔티티를 생성하기 위한 클래스를 작성해보자
+
+```java
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity
+public class Question {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(length = 200)
+    private String subject;
+
+    @Column(columnDefinition = "TEXT")
+    private String content;
+
+    private LocalDateTime createDate;
+```
+
+엔티티로 만들기 위해 Question 클래스에 @Entity 애너테이션을 적용했다. @Entity 애너테이션을 적용해야 JPA가 엔티티로 인식한다. 그리고 Getter, Setter 메서드를 자동으로 생성하기 위해 롬복의 @Getter, @Setter 애너테이션을 적용했다.
+
+컨트롤러에 @Controller 애너테이션을 적용하는 것과 마찬가지로 엔티티는 @Entity 애너테이션을 적용해야 한다.
+
+## JPA의 구현체
