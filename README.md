@@ -37,6 +37,7 @@
   * [JPA](https://github.com/HoyiTT/TIL/blob/master/Spring/JPA.md#jpa)
   * [this](https://github.com/HoyiTT/TIL/blob/master/JAVA/this.md#this)
   * [컨트롤러](https://github.com/HoyiTT/TIL/blob/master/Spring/Controller.md#controller)
+  * [Repository](https://github.com/HoyiTT/TIL/blob/master/Spring/repository.md#%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%84%B0%EB%A6%AC)
 ## IDE
   + [Eclipse 단축키](https://github.com/HoyiTT/TIL/blob/master/JAVA/Eclipse_Shortcut_keys%20.md)
 
