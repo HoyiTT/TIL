@@ -14,3 +14,19 @@ Spring을 공부하며 발생한 오류들을 기록합니다.
 +) 추가
 
 다시 알아보니 엔티티를 생성할 때 작성한 코드인 Qustion.java에서 LocalDatatime의 컬럼을 생성할 때 createdate로 작성하였습니다. 엔티티 생성이 그렇게 생성되어 이러한 오류가 발생하였습니다. 
+
+
+### Entity 객체를 생성했지만 h2 DB에 텡블이 생성되지 않는 경우
+
+오류 원인
+application.properties에서 Spring JPA관련 환경설정 부분에서 ddl-auto를 create로 설정하지 않은 경우 발생합니다.
+```
+spring.jpa.hibernate.ddl-auto=none
+```
+
+해결 방법
+application.properties에서 Spring JPA관련 환경설정 부분에서 ddl-auto를 create로 설정합니다.
+```java
+spring.jpa.hibernate.ddl-auto=create
+```
+
