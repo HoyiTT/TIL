@@ -53,3 +53,6 @@
 ## Git
 
 * [깃 사용법](https://github.com/HoyiTT/TIL/blob/master/%EA%B9%83%20%EC%82%AC%EC%9A%A9%EB%B2%95/git.md)
+
+## 오류일지
+* [Spring 오류일지](https://github.com/HoyiTT/TIL/blob/master/%EC%98%A4%EB%A5%98%20%EC%9D%BC%EC%A7%80/Spring/SpringError.md#sping-%EC%98%A4%EB%A5%98-%EC%9D%BC%EC%A7%80)
