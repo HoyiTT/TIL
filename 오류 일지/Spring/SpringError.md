@@ -30,4 +30,5 @@ application.properties에서 Spring JPA관련 환경설정 부분에서 ddl-auto
 spring.jpa.hibernate.ddl-auto=create
 ```
 +) 추가
+
 create로 설정하면 기존에 테이블이 있더라도 삭제하고 새로 생성합니다. 이때 기존에 테이블이 있더라도 삭제하지 않고 변경분만 적용하려면 update로 설정하면 됩니다.
