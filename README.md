@@ -29,7 +29,7 @@
 * [컬렉션](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%BB%AC%EB%A0%89%EC%85%98.md#%EC%BB%AC%EB%A0%89%EC%85%98)
 * [Getter,Setter](https://github.com/HoyiTT/TIL/blob/master/JAVA/Getter%2C%20Setter.md#getter-setter%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 * [정수타이](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%A0%95%EC%88%98%ED%83%80%EC%9E%85.md)
-* [삼항연산]()
+* [삼항연산](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90.md)
 
 ## Spring
   * [Spring](https://github.com/HoyiTT/TIL/blob/master/Spring/Spring.md#spring)
