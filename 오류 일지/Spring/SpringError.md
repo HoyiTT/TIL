@@ -32,3 +32,35 @@ spring.jpa.hibernate.ddl-auto=create
 +) 추가
 
 create로 설정하면 기존에 테이블이 있더라도 삭제하고 새로 생성합니다. 이때 기존에 테이블이 있더라도 삭제하지 않고 변경분만 적용하려면 update로 설정하면 됩니다.
+
+
+## Spring Securit를 이용하여 로그인 여부를 확인 후 로그인 / 로그아웃 버튼 표시하는 과정에서 둘 다 표시되는 문제
+
+오류 원인
+``` java
+<a class="nav-link" 
+
+sec:authorize="isAnonymous()" th:href="@{/user/login}">로그인</a>
+                    
+<a class="nav-link" 
+
+sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a>
+```
+
+sec:authorize를 사용할 때 isAnonymous()와 isAuthenticated()를 이용하여 로그인 여부를 구분하려 하였지만 둘 중에 하나만 표시되어야 하는 화면에 두 개가 모두 표시되는 문제가 발생하였습니다.
+
+해결 방법
+
+build.gradle에 아래와 같이 의존성을 변경해주었습니다
+
+전
+``` java
+implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.1.RELEASE' 
+```
+
+후
+``` java
+implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5' 
+```
+
+스프링부트 2.7.x 버전을 사용할 시 thymeleaf-extras-springsecurity6를 사용하면 오류가 발생합니다. thymeleaf-extras-springsecurity5를 사용하면 정상적으로 동작합니다.
