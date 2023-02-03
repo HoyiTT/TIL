@@ -20,7 +20,7 @@ public interface QuestionRepository extends JpaRepository<Question, Integer> {
 DB에 저장하는 것은 JPA가 해주기 때문에, 리포지터리에는 DB에 저장하는 메서드를 정의할 필요가 없다.
 
 [파일명:/sbb/src/test/java/com/mysite/sbb/SbbApplicationTests.java]
-```
+``` java
 package com.mysite.sbb;
 
 import java.time.LocalDateTime;

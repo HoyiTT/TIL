@@ -5,7 +5,7 @@ URL 매핑을 통해 요청을 처리하는 컨트롤러 클래스를 정의한�
 ex)
 /question/list URL에 대한 매핑을 정의한다.
 
-```
+``` java
 @Controller
 public class QuestionController {
 
@@ -24,7 +24,7 @@ public class QuestionController {
 
 타임리프를 사용하려면 설치가 필요하다. 다음과 같이 build.gradle 파일을 수정하자.
 
-```
+``` gradle
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
@@ -38,7 +38,7 @@ ex) /src/main/resources/templates/main.html
 
 그 후 컨트롤러 파일을 수정해준다.
 
-```
+``` java
 @Controller
 public class QuestionController {
 

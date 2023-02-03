@@ -8,7 +8,7 @@ ava/hello.hellospring 안에 controller라는 패키지를 생성해준다.
 <img src=img/hellocontroller1.JPG>
 
 java/hello.hellospring/controller/HelloController
-```
+``` java
 @Controller
 public class HelloController {
 
@@ -29,7 +29,7 @@ resources에 templates에 hello.html을 만들고
 resources/templates/hello.html 를 생성해 작성해준다.
 
 resources/templates/hello.html
-```
+``` html
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -61,7 +61,7 @@ resources:templates/{ViewName}.html
 # 정적 페이지
 
 resoureces/static/hello-static.html
-```
+``` html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -88,7 +88,7 @@ Hello World!!
 MVC : Model, View. Controller
 
 Controller
-```
+``` java
 @Controller
 public class HelloController {
     @GetMapping("hello-mvc")
@@ -101,7 +101,7 @@ public class HelloController {
 
 View
 templates/hello-template.html
-```
+``` html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
@@ -120,7 +120,7 @@ templates/hello-template.html
 
 # API
 
-```
+``` java
 @Controller
 public class HelloController {
     @GetMapping("hello-api")

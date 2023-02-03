@@ -26,13 +26,13 @@ ex) 테이블의 구성 예시
 |...|...|...|
 
 sql 쿼리로 작성할 시
-```
+``` sql
 insert into question (subject, content) values ('안녕하세요', '신입이에요');
 insert into question (subject, content) values ('반갑습니다', '잘 부탁 드립니다');
 ```
 
 JPA를 사용하면
-```
+``` java
 Question q1 = new Question();
 q1.setSubject("안녕하세요");
 q1.setContent("신입이에요");
