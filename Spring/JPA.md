@@ -11,6 +11,22 @@ Java Presistence API 의 약자
 각기 다른 DB 벤더들이 제공하는 SQL을 직접 작성하지 않아도 된다.
 -> DB 벤더에 상관 없이 동일한 코드로 동작한다.
 
+## JPA의 동작 과정
+1. JPA는 애플리케이션과 JDBC 사이에서 동작한다.
+2. JPA는 JDBC API를 사용해서 SQL을 DB에 전달한다.
+3. JDBC는 SQL을 DB에 전달하고 결과를 받아온다.
+4. JPA는 JDBC가 받아온 결과를 자바 객체에 매핑한다.
+5. JPA는 애플리케이션에 자바 객체를 반환한다.
+
+### JDBC?
+
+JDBC는 Java Database Connectivity 의 약자로 자바에서 데이터베이스에 접근할 수 있도록 하는 자바 API이다. DBMS에 종속되지 않는 관련 API를 제공한다.
+
+## JPA의 구현체
+- Hibernate
+- EclipseLink
+- DataNucleus
+
 ## ORM
 Object Relational Mapping 의 약자 
 자바의 객체와 관계형 DB의 데이터를 매핑해주는 기술
@@ -94,4 +110,5 @@ public class Question {
 
 컨트롤러에 @Controller 애너테이션을 적용하는 것과 마찬가지로 엔티티는 @Entity 애너테이션을 적용해야 한다.
 
-## JPA의 구현체
+
+
