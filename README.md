@@ -39,7 +39,7 @@
   * [JPA](https://github.com/HoyiTT/TIL/blob/master/Spring/JPA.md#jpa)
   * [this](https://github.com/HoyiTT/TIL/blob/master/JAVA/this.md#this)
   * [컨트롤러](https://github.com/HoyiTT/TIL/blob/master/Spring/Controller.md#controller)
-  * [Repository](https://github.com/HoyiTT/TIL/blob/master/Spring/repository.md#%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%84%B0%EB%A6%AC)
+  * [JPARepository](https://github.com/HoyiTT/TIL/blob/master/Spring/repository.md#%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%84%B0%EB%A6%AC)
   * [Thymeleaf](https://github.com/HoyiTT/TIL/blob/master/Spring/Thymeleaf.md#thymeleaf)
   * [DI](https://github.com/HoyiTT/TIL/blob/master/Spring/DI.md#di--%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-)
 ## IDE
