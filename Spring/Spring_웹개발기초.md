@@ -149,4 +149,4 @@ public class HelloController {
 @ResponseBody를 사용하고, 객체를 반환하면 객체가 JSON으로 변환되어 출력된다.
 (객체가 아닐경우는 일반적인 String으로 출력됨)
 
-<img src=img/원리4.jpg>
+    `<img src=img/원리4.jpg>
