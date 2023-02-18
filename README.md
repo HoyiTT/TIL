@@ -48,6 +48,7 @@
   * [helloworld](https://github.com/HoyiTT/TIL/blob/master/Dart/helloworld.md#hello-world)
   * [null safety](https://github.com/HoyiTT/TIL/blob/master/Dart/nullsafety.md#null-safety)
   * [final](https://github.com/HoyiTT/TIL/blob/master/Dart/final_variables.md#final-variables)
+  * [list](https://github.com/HoyiTT/TIL/blob/master/Dart/List.md#list)
 
 
 ## IDE
