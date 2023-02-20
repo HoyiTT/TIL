@@ -30,3 +30,18 @@ void main() {
 }
 ```
 
+## Collection for
+
+collection for를 이용하여 list의 값을 넣거나 뺄 수 있다.
+
+``` dart
+void main() {
+  var oldFriends = ['HY', 'BI'];
+  var newFriends = ['JH',
+   'KH',
+   'TM',
+   for (var friend in oldFriends) "⚽ $friend",)
+  ];
+  print(newFriends);
+}
+```
