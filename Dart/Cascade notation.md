@@ -27,7 +27,7 @@ void main() {
 
 ``` dart
 void main() {
-  var nico = Player(name: 'Nico', xp: 100, team: 'red');
+  var nico = Player(name: 'Nico', xp: 100, team: 'red')
   ..name = 'Jun'
   ..xp = 200,
   ..team = 'blue';
