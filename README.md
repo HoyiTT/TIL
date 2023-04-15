@@ -46,6 +46,10 @@
 ## Python
   * [BeautifulSoup](https://github.com/HoyiTT/TIL/blob/master/Python/BeautifulSoup/BeautifulSoup.md#beautifulsoup)
 
+## Android
+  * [setOnClickListner](https://github.com/HoyiTT/TIL/blob/master/Android/Kotlin/setOnClickListener.md)
+  * [Toast](https://github.com/HoyiTT/TIL/blob/master/Android/Kotlin/Toast.md#toast)
+
 ## Dart
   * [Dart란?](https://github.com/HoyiTT/TIL/blob/master/Dart/Start.md#dart)
   * [helloworld](https://github.com/HoyiTT/TIL/blob/master/Dart/helloworld.md#hello-world)
@@ -55,7 +59,11 @@
 
 ## 소프트웨어 공학
   * [소프트웨어 공학과 개발 프로세스](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/1.%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99%EA%B3%BC%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.md#%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99)
+  * [UML](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/2.UML.md)
+  * [계획](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/3.계획.md)
 
+## 컴퓨터 네트워크
+  * [서브넷팅](https://github.com/HoyiTT/TIL/blob/master/컴퓨터%20네트워크/서브넷팅.md)
 ## IDE
   + [Eclipse 단축키](https://github.com/HoyiTT/TIL/blob/master/JAVA/Eclipse_Shortcut_keys%20.md)
 
@@ -74,3 +82,6 @@
 
 ## 오류일지
 * [Spring 오류일지](https://github.com/HoyiTT/TIL/blob/master/%EC%98%A4%EB%A5%98%20%EC%9D%BC%EC%A7%80/Spring/SpringError.md#sping-%EC%98%A4%EB%A5%98-%EC%9D%BC%EC%A7%80)
+* [Android 오류일지](https://github.com/HoyiTT/TIL/blob/master/오류%20일지/AndroidError.md#android-오류일지)
+* [Flutter 오류일지](https://github.com/HoyiTT/TIL/blob/master/오류%20일지/FlutterError.md)
+* [애매모호 오류일지](https://github.com/HoyiTT/TIL/blob/master/오류%20일지/애매모호Error.md)
