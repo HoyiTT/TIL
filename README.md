@@ -61,6 +61,8 @@
   * [소프트웨어 공학과 개발 프로세스](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/1.%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99%EA%B3%BC%20%EA%B0%9C%EB%B0%9C%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.md#%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99)
   * [UML](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/2.UML.md)
   * [계획](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/3.계획.md)
+  * [요구분석](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/4.%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D.md)
+  * [설계](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/5.%EC%84%A4%EA%B3%84.md)
 
 ## 컴퓨터 네트워크
   * [서브넷팅](https://github.com/HoyiTT/TIL/blob/master/컴퓨터%20네트워크/서브넷팅.md)
