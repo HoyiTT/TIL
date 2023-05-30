@@ -43,3 +43,15 @@ res/values/styles.xml 파일에
 
 해결 중
 
+
+
+### 안드로이드 스튜디오 java.net.SocketException: socket failed: EPERM (Operation not permitted) 에러 
+
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+소켓 통신을 위한 premission을 추가해주었는데도 불구하고 위와 같은 에러가 발생하였다.
+
+해결 방법
+
+AVD에 설치된 어플을 지웠다가 재설치하니 해결되었다.
