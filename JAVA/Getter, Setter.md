@@ -7,3 +7,18 @@
 이렇게 하는 이유
 
 -> 객체의 무결성을 보장하기 위해
+
+
+# 예시
+
+``` java
+//Getter
+public 리턴타입 getFieldName() {
+    return fieldName;
+}
+
+//Setter
+public void setFieldName(타입 fieldName) {
+    this.fieldName = fieldName;
+}
+```
