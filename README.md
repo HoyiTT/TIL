@@ -63,9 +63,24 @@
   * [계획](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/3.계획.md)
   * [요구분석](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/4.%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D.md)
   * [설계](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/5.%EC%84%A4%EA%B3%84.md)
+  * [아키텍처 설계와 클래스 설계]()
 
 ## 컴퓨터 네트워크
   * [서브넷팅](https://github.com/HoyiTT/TIL/blob/master/컴퓨터%20네트워크/서브넷팅.md)
+  * [DNS]()
+
+## 캡스톤 디자인(OpenCV)
+  * [영상밝기와 명암조절]()
+  * [필터링]()
+  * [영상의 기하학적 변환]()
+  * [에지검출과 응용]()
+  * [컬러 영상 처리]()
+  * [이진화와 모폴로지]()
+  * [레이블링과 외곽선 검출]()
+  * [객체 검출]()
+  * [지역특징점 검출]()
+
+
 ## IDE
   + [Eclipse 단축키](https://github.com/HoyiTT/TIL/blob/master/JAVA/Eclipse_Shortcut_keys%20.md)
 
