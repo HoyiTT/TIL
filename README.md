@@ -70,7 +70,7 @@
   * [DNS]()
 
 ## 캡스톤 디자인(OpenCV)
-  * [영상밝기와 명암조절]()
+  * [영상밝기와 명암조절](https://github.com/HoyiTT/TIL/blob/master/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/5.%EC%98%81%EC%83%81%20%EB%B0%9D%EA%B8%B0%EC%99%80%20%EB%AA%85%EC%95%94%20%EC%A1%B0%EC%A0%88.md#5%EC%98%81%EC%83%81%EC%9D%98-%EB%B0%9D%EA%B8%B0%EC%99%80-%EB%AA%85%EC%95%94%EB%B9%84-%EC%A1%B0%EC%A0%88)
   * [필터링]()
   * [영상의 기하학적 변환]()
   * [에지검출과 응용]()
