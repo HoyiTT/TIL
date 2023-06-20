@@ -63,22 +63,23 @@
   * [계획](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/3.계획.md)
   * [요구분석](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/4.%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D.md)
   * [설계](https://github.com/HoyiTT/TIL/blob/master/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B3%B5%ED%95%99/5.%EC%84%A4%EA%B3%84.md)
-  * [아키텍처 설계와 클래스 설계]()
+  * [아키텍처 설계와 클래스 설계](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/6.%20아키텍처%20설계와%20클래스%20설계.md)
+  * [디자인 패턴](https://github.com/HoyiTT/TIL/blob/master/소프트웨어%20공학/8.%20디자인%20패턴.md)
 
 ## 컴퓨터 네트워크
   * [서브넷팅](https://github.com/HoyiTT/TIL/blob/master/컴퓨터%20네트워크/서브넷팅.md)
-  * [DNS]()
+  * [DNS](https://github.com/HoyiTT/TIL/blob/master/컴퓨터%20네트워크/DNS.md)
 
 ## 캡스톤 디자인(OpenCV)
   * [영상밝기와 명암조절](https://github.com/HoyiTT/TIL/blob/master/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/5.%EC%98%81%EC%83%81%20%EB%B0%9D%EA%B8%B0%EC%99%80%20%EB%AA%85%EC%95%94%20%EC%A1%B0%EC%A0%88.md#5%EC%98%81%EC%83%81%EC%9D%98-%EB%B0%9D%EA%B8%B0%EC%99%80-%EB%AA%85%EC%95%94%EB%B9%84-%EC%A1%B0%EC%A0%88)
-  * [필터링]()
-  * [영상의 기하학적 변환]()
-  * [에지검출과 응용]()
-  * [컬러 영상 처리]()
-  * [이진화와 모폴로지]()
-  * [레이블링과 외곽선 검출]()
-  * [객체 검출]()
-  * [지역특징점 검출]()
+  * [필터링](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/7.필터링.md#7-필터링)
+  * [영상의 기하학적 변환](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/8.영상의%20기하학적%20변환.md#8영상의-기하학적-변환)
+  * [에지검출과 응용](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/9.에지%20검출과%20응용.md)
+  * [컬러 영상 처리](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/10.컬러%20영상%20처리.md)
+  * [이진화와 모폴로지](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/11.이진화와%20모폴로지.md)
+  * [레이블링과 외곽선 검출](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/12.레이블링과%20외곽선%20검출.md)
+  * [객체 검출](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/13.객체검출.md)
+  * [지역특징점 검출](https://github.com/HoyiTT/TIL/blob/master/캡스톤디자인/14.지역%20특징점%20검출과%20매칭.md)
 
 
 ## IDE
