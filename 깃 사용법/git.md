@@ -31,3 +31,15 @@ git rm --cached -r [폴더/파일이름]
 git commit -m "Delete wrong file"
 
 git push
+
+깃 서브트리
+
+변경 사항을 커밋
+git add .
+git commit -m "Save changes before adding subtree"
+
+서브트리 추가
+git subtree add --prefix=5.pwa https://github.com/HoyiTT/flask-pwa.git main
+
+서브트리 업데이트
+git subtree pull --prefix=5.pwa https://github.com/HoyiTT/flask-pwa.git main
