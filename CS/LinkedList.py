@@ -30,7 +30,7 @@ class LinkedList(object):
             current = current.next
         return current.value
 
-
+    # O(N)
     def insert(self, idx, value):
         new_node = Node(value)
         current = self.head
@@ -39,6 +39,7 @@ class LinkedList(object):
         new_node.next = current.next
         current.next = new_node
 
+    #(O(N)
     def remove(self, idx):
         current = self.head
         for _ in range(idx - 1):
