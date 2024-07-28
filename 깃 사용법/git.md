@@ -43,3 +43,10 @@ git subtree add --prefix=5.pwa https://github.com/HoyiTT/flask-pwa.git main
 
 서브트리 업데이트
 git subtree pull --prefix=5.pwa https://github.com/HoyiTT/flask-pwa.git main
+
+
+main 브랜치의 최신내용을 원격 저장소로 부터 가져오기
+git fetch origin main:main
+
+서브 브랜치에 main 브랜치 병합
+git merge main
