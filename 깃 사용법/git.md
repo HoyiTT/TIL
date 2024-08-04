@@ -50,3 +50,6 @@ git fetch origin main:main
 
 서브 브랜치에 main 브랜치 병합
 git merge main
+
+특정 브랜치를 클론
+git clone --branch <branchname> <remote-repo-url>
