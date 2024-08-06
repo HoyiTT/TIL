@@ -53,3 +53,16 @@ git merge main
 
 특정 브랜치를 클론
 git clone --branch <branchname> <remote-repo-url>
+
+
+현재 브랜치 확인
+git branch
+
+서브 브랜치로 전환 (예: feature-branch)
+git checkout feature-branch
+
+main 브랜치의 최신 내용을 원격 저장소로부터 가져오기
+git fetch origin main:main
+
+서브 브랜치에 main 브랜치 병합
+git merge main
