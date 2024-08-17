@@ -2,6 +2,8 @@
 
 BeautifulSoup는 HTML과 XML 파일로부터 데이터를 뽑아내기 위한 파이썬 라이브러리이다. 여러분이 선호하는 해석기와 함께 사용하여 일반적인 방식으로 해석 트리를 항해, 검색, 변경할 수 있다. 주로 프로그래머의 수고를 덜어준다. 
 
+파이썬에서는 웹 크롤링을 위해 사옹되기도 한다.
+
 ``` python
 import requests
 from bs4 import BeautifulSoup
