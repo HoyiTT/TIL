@@ -2,7 +2,7 @@
 
 ## github remote: fatal error in commit_refs
 
-평소와 다름없이 커밋루 푸쉬를 했는데
+평소와 다름없이 커밋후 푸쉬를 했는데
 
 ``` git 
 remote: fatal error in commit_refs
