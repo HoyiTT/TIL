@@ -27,3 +27,14 @@ def bfs(s):
                 v[n] = 1
     
 ```
+
+# Queue
+
+``` python
+from collections import deque
+
+q = deque()
+
+q.append(1)
+q.popleft()
+```
