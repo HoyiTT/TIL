@@ -28,6 +28,12 @@ def bfs(s):
     
 ```
 
+# 리스트로 방문 처리를 할 수 없는 이유
+
+    리스트는 방문 처리를 할 때 시간복잡도가 O(N)이기 때문에 비효율적이기도 하지만,
+    근본적으로 파이썬에서 리스트는 주소값을 참조하는 방식이기 때문에 방문 처리를 할 수 없다.
+    동일한 요소를 가지더라도 주소값이 다르기 때문이다.
+
 # Queue
 
 ``` python
@@ -87,4 +93,5 @@ for chicken_comb in combinations(chickens, M):
 even_numbers = [x for x in range(1, 11) if x % 2 == 0]
 print(even_numbers)  # 출력: [2, 4, 6, 8, 10]
 ```
+
 
