@@ -149,3 +149,12 @@ print(even_numbers)  # 출력: [2, 4, 6, 8, 10]
 ```
 
 
+# max + lambda
+
+``` python
+if q[0][0] == max(q, key = lambda x : x[0])[0]:
+```
+
+위 처럼 2차원 큐의 최대값을 찾을 때 람다를 사용해서 구할 수 있다.
+
+
