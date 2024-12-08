@@ -44,15 +44,11 @@
 
 4) 위의 절차를 반복한다. low와 high가 엇갈리면 정지한다.
 
-5) 피벗값과 high 값을 SWAP한다.
+5) 피벗을 기준으로 왼쪽, 오른쪽 두개의 배열을 반복한다.
 
-6) 피벗을 기준으로 왼쪽, 오른쪽 두개의 배열을 반복한다.
+6) 더 이상 나눠질 수 없을 때까지 재귀적으로 반복한다.
 
-7) 더 이상 나눠질 수 없을 때까지 재귀적으로 반복한다.
-
-8) 정렬이 완료된다.
-
-![quick_sort](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3lb5Q%2FbtrshyJIiQF%2FkNoD2RLRPWYXebk59C57gk%2Fimg.png)
+7) 정렬이 완료된다.
 
 ## 장단점
 
