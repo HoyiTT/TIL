@@ -52,6 +52,8 @@
 
 8) 정렬이 완료된다.
 
+![quick_sort](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3lb5Q%2FbtrshyJIiQF%2FkNoD2RLRPWYXebk59C57gk%2Fimg.png)
+
 ## 장단점
 
 ### 장점
