@@ -1,6 +1,13 @@
 
 # HoyiTT's TIL
 
+## CS
+
+* [퀵정렬](https://github.com/HoyiTT/TIL/blob/master/CS/QuickSort.md)
+* [b-tree](https://github.com/HoyiTT/TIL/blob/master/CS/b-tree.md)
+* [node](https://github.com/HoyiTT/TIL/blob/master/CS/node.md)
+* [risccisc](https://github.com/HoyiTT/TIL/blob/master/CS/risccisc.md)
+* [캐시메모리](https://github.com/HoyiTT/TIL/blob/master/CS/%EC%BA%90%EC%8B%9C%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
   
 
 ## JAVA
@@ -30,6 +37,12 @@
 * [Getter,Setter](https://github.com/HoyiTT/TIL/blob/master/JAVA/Getter%2C%20Setter.md#getter-setter%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 * [정수타입](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%A0%95%EC%88%98%ED%83%80%EC%9E%85.md)
 * [삼항연산자](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90.md#%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90)
+* [싱글톤](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EC%8B%B1%EA%B8%80%ED%86%A4.md)
+* [길이](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EA%B8%B8%EC%9D%B4.md)
+* [this](https://github.com/HoyiTT/TIL/blob/master/JAVA/this.md)
+* [optional](https://github.com/HoyiTT/TIL/blob/master/JAVA/Optional.md)
+* [JIT] (https://github.com/HoyiTT/TIL/blob/master/JAVA/JIT.md)
+
 
 ## Spring
   * [Spring](https://github.com/HoyiTT/TIL/blob/master/Spring/Spring.md#spring)
@@ -92,6 +105,7 @@
 
 ## 도서
   * [프로그래머의 뇌](https://github.com/HoyiTT/TIL/blob/master/%EB%8F%84%EC%84%9C/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98_%EB%87%8C.md)
+  * [밑바닥부터 만드는 컴퓨팅 시스템](https://github.com/HoyiTT/TIL/blob/master/%EB%8F%84%EC%84%9C/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%EB%A7%8C%EB%93%9C%EB%8A%94%EC%BB%B4%ED%93%A8%ED%8C%85%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
 
 
 ## Git
