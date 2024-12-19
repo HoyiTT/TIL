@@ -42,7 +42,7 @@
 * [this](https://github.com/HoyiTT/TIL/blob/master/JAVA/this.md)
 * [optional](https://github.com/HoyiTT/TIL/blob/master/JAVA/Optional.md)
 * [JIT](https://github.com/HoyiTT/TIL/blob/master/JAVA/JIT.md)
-* [동시성](https://github.com/HoyiTT/TIL/blob/master/JAVA/)
+* [동시성](https://github.com/HoyiTT/TIL/blob/master/JAVA/%EB%8F%99%EC%8B%9C%EC%84%B1%EB%AC%B8%EC%A0%9C.md)
 
 
 ## Spring
