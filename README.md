@@ -8,6 +8,11 @@
 * [node](https://github.com/HoyiTT/TIL/blob/master/CS/node.md)
 * [risccisc](https://github.com/HoyiTT/TIL/blob/master/CS/risccisc.md)
 * [캐시메모리](https://github.com/HoyiTT/TIL/blob/master/CS/%EC%BA%90%EC%8B%9C%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
+* [QuickSort](https://github.com/HoyiTT/TIL/blob/master/CS/QuickSort.md)
+* [Array vs ArrayList vs LinkedList](https://github.com/HoyiTT/TIL/blob/master/CS/List%EB%93%A4.md#array-vs-arraylist-vs-linkedlist)
+* [CICD](https://github.com/HoyiTT/TIL/blob/master/CS/CICD.md)
+
+
   
 
 ## JAVA
