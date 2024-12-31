@@ -11,6 +11,8 @@
 * [QuickSort](https://github.com/HoyiTT/TIL/blob/master/CS/QuickSort.md)
 * [Array vs ArrayList vs LinkedList](https://github.com/HoyiTT/TIL/blob/master/CS/List%EB%93%A4.md#array-vs-arraylist-vs-linkedlist)
 * [CICD](https://github.com/HoyiTT/TIL/blob/master/CS/CICD.md)
+* [SSR VS CSR]()
+* [RESTful API]()
 
 
   
