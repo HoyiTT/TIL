@@ -112,3 +112,83 @@ public class Question {
 
 
 
+---
+
+## 주요 어노테이션
+
+###  @Entity
+- JPA에서 엔티티 클래스를 지정하는 어노테이션입니다.
+- 이 어노테이션이 붙은 클래스는 데이터베이스 테이블에 매핑됩니다.
+
+```java
+import javax.persistence.Entity;
+
+@Entity
+public class Member {
+    @Id
+    private Long id;
+    private String name;
+}
+```
+
+###  @Id
+- 기본 키를 나타내는 필드에 사용됩니다.
+
+### @GeneratedValue
+- 기본 키의 값을 자동 생성할 때 사용합니다.
+- 전략:
+  - `GenerationType.IDENTITY`: 데이터베이스에 위임
+  - `GenerationType.SEQUENCE`: 시퀀스 객체를 사용
+  - `GenerationType.TABLE`: 별도의 키 생성용 테이블 사용
+  - `GenerationType.AUTO`: 자동 선택
+
+```java
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private Long id;
+```
+
+###  @Column
+- 테이블의 열에 매핑되는 필드를 지정합니다.
+- 속성: name, length, nullable 등
+
+```java
+@Column(name = "username", length = 50, nullable = false)
+private String name;
+```
+
+---
+
+## JPA 주요 인터페이스
+
+###  EntityManager
+- 엔티티를 저장, 수정, 삭제, 조회하는 데 사용됩니다.
+
+```java
+EntityManager em = emf.createEntityManager();
+```
+
+###  EntityTransaction
+- 트랜잭션 관리를 위한 인터페이스입니다.
+
+```java
+EntityTransaction transaction = em.getTransaction();
+transaction.begin();
+em.persist(entity); // 엔티티 저장
+transaction.commit();
+```
+
+---
+
+## JPQL (Java Persistence Query Language)
+- JPA에서 제공하는 객체 지향 쿼리 언어입니다.
+- SQL과 유사하지만 엔티티 객체를 대상으로 쿼리합니다.
+
+```java
+String jpql = "SELECT m FROM Member m WHERE m.name = :name";
+List<Member> result = em.createQuery(jpql, Member.class)
+                        .setParameter("name", "John")
+                        .getResultList();
+```
+
+---
