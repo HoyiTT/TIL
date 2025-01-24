@@ -64,3 +64,32 @@ implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
 ```
 
 스프링부트 2.7.x 버전을 사용할 시 thymeleaf-extras-springsecurity6를 사용하면 오류가 발생합니다. thymeleaf-extras-springsecurity5를 사용하면 정상적으로 동작합니다.
+
+## 디버그 로그 터미널에서 확인하는 법
+
+오류 원인
+
+스프링 버전 업데이트에 따른 로그 출력 방식 변경
+
+해결 방법
+
+다음 위치에 파일을 만들어서 넣으면 디버그 로그를 확인할 수 있습니다.
+
+src/main/resources/logback.xml
+
+``` xml
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp-%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
+```
+
+다시 로그가 안나오도록 하려면  `<root level="DEBUG">` 부분을 `<root level="INFO">` 로 변경 하면 된다.
+
