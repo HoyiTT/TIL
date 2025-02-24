@@ -106,4 +106,11 @@ Git `pull` 명령어 관련 내용을 추가하여 다시 정리해 보았습니
   ```bash
   git subtree pull --prefix=<폴더명> <레포지토리 주소> <브랜치명>
   ```
+## 9. git diff
+- **변경 사항 확인**  
+  ```bash
+  git diff
+  ```
+
 ```
+
