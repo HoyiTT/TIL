@@ -48,3 +48,33 @@ shift + shift
 ## 선언 위치로 이동
 cmd + b / cmd + click
 
+## 구현 위치로 이동
+cmd + alt + b
+
+## 클래스 계층 구조
+ctrl + h
+
+## 메서드 계층 구조
+ctrl + alt + h
+
+## 코드 생성
+cmd + n
+
+## 코드 정리
+cmd + alt + l
+
+## 브레이크 포인트
+cmd + f8
+
+## 브레이크 포인트 확인
+cmd + shift + f8
+
+## 디버깅 시작
+ctrl + d
+
+## stepover
+f8
+
+## stepinto
+f7
+
