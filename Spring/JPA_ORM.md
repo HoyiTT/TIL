@@ -95,6 +95,8 @@ JpaRepository 인터페이스만 상속하면 기본적인 CRUD 기능이 자동
 메서드 이름만으로도 쿼리 자동 생성 (findByName(), findByEmail())
 JPQL을 직접 사용할 필요 없이 메서드 쿼리(@Query)를 활용할 수 있음.
 
+N + 1 문제가 뭐야
+
 
 ## 결론
 
