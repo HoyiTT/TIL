@@ -144,6 +144,7 @@ public class ProducerConsumer {
 class BankAccount {
     private int balance = 1000;
 
+    // withdraw 메서드에 synchronized 사용해서 한 번에 한 스레드만 접근 가능
     public synchronized void withdraw(int amount, String name) {
         if (balance >= amount) {
             System.out.println(name + " 출금 시도: " + amount);
@@ -154,6 +155,19 @@ class BankAccount {
         }
     }
 }
+
+public class MutexExample {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount();
+
+        Runnable userA = () -> account.withdraw(700, "A");
+        Runnable userB = () -> account.withdraw(500, "B");
+
+        new Thread(userA).start();
+        new Thread(userB).start();
+    }
+}
+
 ```
 
 ---
@@ -170,28 +184,30 @@ class BankAccount {
 ```java
 import java.util.concurrent.Semaphore;
 
-public class SeminarRoom {
-    private static final Semaphore seats = new Semaphore(5); // 세미나실 입장 제한 인원
+public class SemaphoreExample {
+    // 동시 입장 가능 인원: 5명
+    private static final Semaphore seats = new Semaphore(5);
 
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
-            final int person = i;
+            int person = i;
             new Thread(() -> {
                 try {
                     System.out.println("사람 " + person + " 입장 시도 중...");
-                    seats.acquire(); // 자리가 없으면 대기
+                    seats.acquire(); // 좌석 없으면 대기
                     System.out.println("사람 " + person + " 입장 완료!");
-                    Thread.sleep(2000); // 세미나 참여 중...
+                    Thread.sleep(2000); // 세미나 참여 중
                     System.out.println("사람 " + person + " 퇴장");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    seats.release(); // 자리 반납
+                    seats.release(); // 좌석 반납
                 }
             }).start();
         }
     }
 }
+
 ```
 
 ---
